@@ -1,0 +1,97 @@
+.social-menu {
+	margin: 0;
+	list-style: none;
+	word-spacing: 0.1em;
+}
+
+.social-menu__item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+
+.social-menu__item a {
+	display: block;
+	width: 1.25em;
+	font-size: 1.5em;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+.social-menu__item a:before {
+	content: '\f415';
+	display: block;
+	font-family: 'Genericons';
+}
+
+.social-menu__item a[href*="youtube.com"]:before {
+	content: "\f213";
+}
+
+.social-menu__item a[href*="wordpress"]:before {
+	content: "\f205";
+}
+
+.social-menu__item a[href*="facebook.com"]:before {
+	content: "\f204";
+}
+
+.social-menu__item a[href*="twitter.com"]:before {
+	content: "\f202";
+}
+
+.social-menu__item a[href*="dribbble.com"]:before {
+	content: "\f201";
+}
+
+.social-menu__item a[href*="plus.google.com"]:before {
+	content: "\f206";
+}
+
+.social-menu__item a[href*="pinterest.com"]:before {
+	content: "\f209";
+}
+
+.social-menu__item a[href*="github.com"]:before {
+	content: "\f200";
+}
+
+.social-menu__item a[href*="tumblr.com"]:before {
+	content: "\f214";
+}
+
+.social-menu__item a[href*="youtube.com"]:before {
+	content: "\f213";
+}
+
+.social-menu__item a[href*="flickr.com"]:before {
+	content: "\f211";
+}
+
+.social-menu__item a[href*="vimeo.com"]:before {
+	content: "\f212";
+}
+
+.social-menu__item a[href*="instagram.com"]:before {
+	content: "\f215";
+}
+
+.social-menu__item a[href*="codepen.io"]:before {
+	content: "\f216";
+}
+
+.social-menu__item a[href*="linkedin.com"]:before {
+	content: "\f207";
+}
+
+.social-menu__item a[href*="/feed"]:before {
+	content: "\f413";
+}
+
+.social-menu__item a[href^="mailto:"]:before {
+	content: "\f410";
+}
+
+.social-menu__item a[href^="tel:"]:before {
+	content: "\f50c";
+}
